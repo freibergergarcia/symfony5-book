@@ -15,6 +15,8 @@ Each step will be a feature branch which will be merge into its own environment.
 Create a subscriber:
 `symfony console make:subscriber TwigEventSubscriber`
 
+Create a form Class and bound it to the Comment model: `symfony console make:form CommentFormType Comment `
+
 ## Docker commands
 `docker-compose up -d` build and detach from images
 
