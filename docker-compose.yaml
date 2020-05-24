@@ -1,6 +1,7 @@
 version: '3'
 
 services:
+
   database:
     image: postgres:11-alpine
     environment:
@@ -8,3 +9,7 @@ services:
       POSTGRES_PASSWORD: main
       POSTGRES_DB: main
     ports: [5432]
+
+  redis:
+    image: redis:5-alpine
+    ports: [6379]
