@@ -10,6 +10,11 @@ Will create one branch by step, and I will have two environments:
 
 Each step will be a feature branch which will be merge into its own environment.
 
+## Symfony commands
+
+Create a subscriber:
+`symfony console make:subscriber TwigEventSubscriber`
+
 ## Docker commands
 `docker-compose up -d` build and detach from images
 
