@@ -1,6 +1,14 @@
 # SYMFONY GUESTBOOK
 
-Using this to save some info.
+Just saving as go.
+
+## Branch strategy
+
+Will create one branch by step, and I will have two environments:
+- dev
+- prod
+
+Each step will be a feature branch which will be merge into its own environment.
 
 ## Docker commands
 `docker-compose up -d` build and detach from images
